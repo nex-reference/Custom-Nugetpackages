@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Common.Logging</id>
+    <version>1.0.0</version>
+    <authors>Nexturn</authors>
+    <description>This package contains the Seri logging and Elastic search Features</description>
+    <releaseNotes>This package contains the Seri logging and Elastic search Features.</releaseNotes>
+    <tags>Common.Logging</tags>
+    <repository type="git" url="https://github.com/nex-reference/Custom-Nugetpackages" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Serilog.AspNetCore" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Enrichers.Environment" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Elasticsearch" version="8.4.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Common.Logging\Common.Logging\bin\Release\net6.0\Common.Logging.dll" target="lib\net6.0\Common.Logging.dll" />
+  </files>
+</package>
