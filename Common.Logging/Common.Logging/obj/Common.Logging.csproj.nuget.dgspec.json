@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\nex-reference\\Custom-Nugetpackages\\Common.Logging\\Common.Logging\\Common.Logging.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\nex-reference\\Custom-Nugetpackages\\Common.Logging\\Common.Logging\\Common.Logging.csproj",
         "projectName": "CBSCommonLogging",
