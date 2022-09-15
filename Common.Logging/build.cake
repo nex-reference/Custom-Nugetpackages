@@ -85,7 +85,7 @@ Task("Pack")
                         .WithProperty("Version", version)
     };
     
-    DotNetPack("./ApiResponse.sln", settings);
+    DotNetPack("./Common.Logging.sln", settings);
  });
  
  
