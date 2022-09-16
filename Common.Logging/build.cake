@@ -1,7 +1,9 @@
 #tool "dotnet:?package=GitVersion.Tool&version=5.10.3"
 
 var target = Argument("target", "Default");
+
 var configuration = Argument("configuration", "Release");
+
 string version = String.Empty;
 //////////////////////////////////////////////////////////////////////
 // TASKS
