@@ -4,7 +4,7 @@ using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using System;
 
-
+//TExt file
 namespace Common.Logging
 {
     public static class SeriLogger
